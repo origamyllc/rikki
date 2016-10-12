@@ -3,7 +3,7 @@
  */
 import { Schema } from 'mongoose';
 
-module.exports = {
+const models= {
     permission : {
         name: {
             type: String,
@@ -76,3 +76,5 @@ module.exports = {
         }
     }
 }
+
+module.exports = models;
